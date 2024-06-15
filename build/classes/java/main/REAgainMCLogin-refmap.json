@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "cn/ksmcbrigade/raml/mixin/ClientPlayNetworkHandlerMixin": {
+      "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V"
+    },
+    "cn/ksmcbrigade/raml/mixin/PlayerManagerMixin": {
+      "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V",
+      "remove": "Lnet/minecraft/class_3324;method_14611(Lnet/minecraft/class_3222;)V"
+    },
+    "cn/ksmcbrigade/raml/mixin/ServerPlayNetworkHandlerMixin": {
+      "onChatMessage": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V",
+      "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V",
+      "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "cn/ksmcbrigade/raml/mixin/ClientPlayNetworkHandlerMixin": {
+        "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V"
+      },
+      "cn/ksmcbrigade/raml/mixin/PlayerManagerMixin": {
+        "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V",
+        "remove": "Lnet/minecraft/class_3324;method_14611(Lnet/minecraft/class_3222;)V"
+      },
+      "cn/ksmcbrigade/raml/mixin/ServerPlayNetworkHandlerMixin": {
+        "onChatMessage": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V",
+        "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V",
+        "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V"
+      }
+    }
+  }
+}

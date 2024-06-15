@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "raml",
+  "version": "1.0",
+  "name": "REAgainMCLogin",
+  "description": "add client mod white list.",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/REAgainMCLogin"
+  },
+  "license": "MIT",
+  "icon": "assets/raml/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.raml.client.REAgainMCLoginClient"
+    ],
+    "main": [
+      "cn.ksmcbrigade.raml.REAgainMCLogin"
+    ]
+  },
+  "mixins": [
+    "raml.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
